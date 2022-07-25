@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background: rgb(0, 0, 0);
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+img:hover {
+  height: 300px;
+  width: 300px;
+}
+
+.header {
+  background: linear-gradient(rgb(87, 0, 189), rgb(0, 0, 0));
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+.header h1 {
+  border-bottom: white solid 1px;
+}
+.header span {
+  color: white;
+  font-family: "Allura";
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+ul li {
+  padding: 10px;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-top: white solid 1px;
+}/*# sourceMappingURL=main.css.map */
